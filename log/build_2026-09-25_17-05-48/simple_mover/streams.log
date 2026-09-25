@@ -1,0 +1,37 @@
+[0.941s] Invoking command in '/home/jun/ros2_jazzy/src/simple_mover': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jun/ros2_jazzy/src/build/simple_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simple_mover build --build-base /home/jun/ros2_jazzy/src/build/simple_mover/build install --record /home/jun/ros2_jazzy/src/build/simple_mover/install.log --install-scripts $base/lib/simple_mover --single-version-externally-managed install_data
+[1.184s] running egg_info
+[1.184s] creating ../build/simple_mover/simple_mover.egg-info
+[1.203s] writing ../build/simple_mover/simple_mover.egg-info/PKG-INFO
+[1.203s] writing dependency_links to ../build/simple_mover/simple_mover.egg-info/dependency_links.txt
+[1.204s] writing entry points to ../build/simple_mover/simple_mover.egg-info/entry_points.txt
+[1.204s] writing requirements to ../build/simple_mover/simple_mover.egg-info/requires.txt
+[1.204s] writing top-level names to ../build/simple_mover/simple_mover.egg-info/top_level.txt
+[1.204s] writing manifest file '../build/simple_mover/simple_mover.egg-info/SOURCES.txt'
+[1.243s] reading manifest file '../build/simple_mover/simple_mover.egg-info/SOURCES.txt'
+[1.244s] writing manifest file '../build/simple_mover/simple_mover.egg-info/SOURCES.txt'
+[1.244s] running build
+[1.244s] running build_py
+[1.244s] creating /home/jun/ros2_jazzy/src/build/simple_mover/build
+[1.244s] creating /home/jun/ros2_jazzy/src/build/simple_mover/build/lib
+[1.244s] creating /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover
+[1.245s] copying simple_mover/mover_node.py -> /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover
+[1.245s] copying simple_mover/__init__.py -> /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover
+[1.245s] running install
+[1.250s] running install_lib
+[1.269s] creating /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover
+[1.269s] copying /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover/mover_node.py -> /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover
+[1.269s] copying /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover/__init__.py -> /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover
+[1.269s] byte-compiling /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover/mover_node.py to mover_node.cpython-312.pyc
+[1.270s] byte-compiling /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover/__init__.py to __init__.cpython-312.pyc
+[1.270s] running install_data
+[1.271s] creating /home/jun/ros2_jazzy/src/install/simple_mover/share/ament_index
+[1.271s] creating /home/jun/ros2_jazzy/src/install/simple_mover/share/ament_index/resource_index
+[1.271s] creating /home/jun/ros2_jazzy/src/install/simple_mover/share/ament_index/resource_index/packages
+[1.271s] copying resource/simple_mover -> /home/jun/ros2_jazzy/src/install/simple_mover/share/ament_index/resource_index/packages
+[1.271s] copying package.xml -> /home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover
+[1.271s] running install_egg_info
+[1.292s] Copying ../build/simple_mover/simple_mover.egg-info to /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover-0.0.0-py3.12.egg-info
+[1.293s] running install_scripts
+[1.412s] Installing mover_node script to /home/jun/ros2_jazzy/src/install/simple_mover/lib/simple_mover
+[1.412s] writing list of installed files to '/home/jun/ros2_jazzy/src/build/simple_mover/install.log'
+[1.436s] Invoked command in '/home/jun/ros2_jazzy/src/simple_mover' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jun/ros2_jazzy/src/build/simple_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simple_mover build --build-base /home/jun/ros2_jazzy/src/build/simple_mover/build install --record /home/jun/ros2_jazzy/src/build/simple_mover/install.log --install-scripts $base/lib/simple_mover --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+source;share/robin_description/local_setup.bash
+source;share/robin_description/local_setup.dsv
+source;share/robin_description/local_setup.sh
+source;share/robin_description/local_setup.zsh

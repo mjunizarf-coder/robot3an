@@ -1,0 +1,53 @@
+[0.012s] Invoking command in '/home/jun/ros2_jazzy/src/build/robin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jun/ros2_jazzy/src/robin_description -DCMAKE_INSTALL_PREFIX=/home/jun/ros2_jazzy/src/install/robin_description
+[0.159s] -- The C compiler identification is GNU 13.3.0
+[0.267s] -- The CXX compiler identification is GNU 13.3.0
+[0.287s] -- Detecting C compiler ABI info
+[0.385s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.393s] -- Detecting C compile features
+[0.393s] -- Detecting C compile features - done
+[0.403s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.511s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.511s] -- Detecting CXX compile features
+[0.512s] -- Detecting CXX compile features - done
+[0.521s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.668s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.876s] -- Configuring done (0.8s)
+[0.879s] -- Generating done (0.0s)
+[0.882s] -- Build files have been written to: /home/jun/ros2_jazzy/src/build/robin_description
+[0.888s] Invoked command in '/home/jun/ros2_jazzy/src/build/robin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jun/ros2_jazzy/src/robin_description -DCMAKE_INSTALL_PREFIX=/home/jun/ros2_jazzy/src/install/robin_description
+[0.889s] Invoking command in '/home/jun/ros2_jazzy/src/build/robin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jun/ros2_jazzy/src/build/robin_description -- -j12 -l12
+[0.913s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.171s] -- Configuring done (0.3s)
+[1.174s] -- Generating done (0.0s)
+[1.176s] -- Build files have been written to: /home/jun/ros2_jazzy/src/build/robin_description
+[1.200s] Invoked command in '/home/jun/ros2_jazzy/src/build/robin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jun/ros2_jazzy/src/build/robin_description -- -j12 -l12
+[1.201s] Invoking command in '/home/jun/ros2_jazzy/src/build/robin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jun/ros2_jazzy/src/build/robin_description
+[1.210s] -- Install configuration: ""
+[1.210s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//urdf
+[1.210s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//urdf/common_properties.xacro
+[1.211s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//urdf/mobile_base_gazebo.xacro
+[1.211s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//urdf/mobile_base.xacro
+[1.212s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//urdf/my_robot.urdf.xacro
+[1.212s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//launch
+[1.212s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//launch/display.launch.py
+[1.212s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//launch/display.launch.xml
+[1.213s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//rviz
+[1.213s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//rviz/urdf_config.rviz
+[1.213s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/ament_index/resource_index/package_run_dependencies/robin_description
+[1.213s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/ament_index/resource_index/parent_prefix_path/robin_description
+[1.213s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/environment/ament_prefix_path.sh
+[1.213s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/environment/ament_prefix_path.dsv
+[1.214s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/environment/path.sh
+[1.214s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/environment/path.dsv
+[1.214s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/local_setup.bash
+[1.214s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/local_setup.sh
+[1.214s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/local_setup.zsh
+[1.214s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/local_setup.dsv
+[1.214s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.dsv
+[1.215s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/ament_index/resource_index/packages/robin_description
+[1.215s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/cmake/robin_descriptionConfig.cmake
+[1.215s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/cmake/robin_descriptionConfig-version.cmake
+[1.215s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.xml
+[1.217s] Invoked command in '/home/jun/ros2_jazzy/src/build/robin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jun/ros2_jazzy/src/build/robin_description
