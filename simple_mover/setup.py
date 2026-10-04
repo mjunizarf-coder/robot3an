@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='jun',
-    maintainer_email='jun@todo.todo',
+    maintainer='meeppo',
+    maintainer_email='meeppo@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -24,7 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'mover_node = simple_mover.mover_node:main'
+            'mover_node = simple_mover.mover_node:main',
+            'inverse_kinematic_node = simple_mover.inverse_kinematic_node:main',
+            'forward_kinematic_node = simple_mover.forward_kinematic_node:main'
         ],
     },
 )

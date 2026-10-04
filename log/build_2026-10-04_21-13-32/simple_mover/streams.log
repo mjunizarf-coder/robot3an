@@ -1,0 +1,29 @@
+[0.994s] Invoking command in '/home/jun/ros2_jazzy/src/simple_mover': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jun/ros2_jazzy/src/build/simple_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simple_mover build --build-base /home/jun/ros2_jazzy/src/build/simple_mover/build install --record /home/jun/ros2_jazzy/src/build/simple_mover/install.log --install-scripts $base/lib/simple_mover --single-version-externally-managed install_data
+[1.296s] running egg_info
+[1.319s] writing ../build/simple_mover/simple_mover.egg-info/PKG-INFO
+[1.320s] writing dependency_links to ../build/simple_mover/simple_mover.egg-info/dependency_links.txt
+[1.320s] writing entry points to ../build/simple_mover/simple_mover.egg-info/entry_points.txt
+[1.320s] writing requirements to ../build/simple_mover/simple_mover.egg-info/requires.txt
+[1.321s] writing top-level names to ../build/simple_mover/simple_mover.egg-info/top_level.txt
+[1.367s] reading manifest file '../build/simple_mover/simple_mover.egg-info/SOURCES.txt'
+[1.367s] writing manifest file '../build/simple_mover/simple_mover.egg-info/SOURCES.txt'
+[1.367s] running build
+[1.368s] running build_py
+[1.368s] copying simple_mover/mover_node.py -> /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover
+[1.368s] copying simple_mover/forward_kinematic_node.py -> /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover
+[1.368s] running install
+[1.375s] running install_lib
+[1.399s] copying /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover/mover_node.py -> /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover
+[1.400s] copying /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover/forward_kinematic_node.py -> /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover
+[1.400s] byte-compiling /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover/mover_node.py to mover_node.cpython-312.pyc
+[1.402s] byte-compiling /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover/forward_kinematic_node.py to forward_kinematic_node.cpython-312.pyc
+[1.403s] running install_data
+[1.403s] running install_egg_info
+[1.428s] removing '/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover-0.0.0-py3.12.egg-info' (and everything under it)
+[1.428s] Copying ../build/simple_mover/simple_mover.egg-info to /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover-0.0.0-py3.12.egg-info
+[1.429s] running install_scripts
+[1.581s] Installing forward_kinematic_node script to /home/jun/ros2_jazzy/src/install/simple_mover/lib/simple_mover
+[1.582s] Installing inverse_kinematic_node script to /home/jun/ros2_jazzy/src/install/simple_mover/lib/simple_mover
+[1.582s] Installing mover_node script to /home/jun/ros2_jazzy/src/install/simple_mover/lib/simple_mover
+[1.582s] writing list of installed files to '/home/jun/ros2_jazzy/src/build/simple_mover/install.log'
+[1.625s] Invoked command in '/home/jun/ros2_jazzy/src/simple_mover' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jun/ros2_jazzy/src/build/simple_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simple_mover build --build-base /home/jun/ros2_jazzy/src/build/simple_mover/build install --record /home/jun/ros2_jazzy/src/build/simple_mover/install.log --install-scripts $base/lib/simple_mover --single-version-externally-managed install_data

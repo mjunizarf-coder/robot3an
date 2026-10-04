@@ -10,6 +10,8 @@ setup.py
 ../build/simple_mover/simple_mover.egg-info/zip-safe
 resource/simple_mover
 simple_mover/__init__.py
+simple_mover/forward_kinematic_node.py
+simple_mover/inverse_kinematic_node.py
 simple_mover/mover_node.py
 test/test_copyright.py
 test/test_flake8.py

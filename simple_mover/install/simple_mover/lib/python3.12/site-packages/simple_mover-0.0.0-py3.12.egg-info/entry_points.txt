@@ -1,0 +1,2 @@
+[console_scripts]
+mover_node = simple_mover.mover_node:main

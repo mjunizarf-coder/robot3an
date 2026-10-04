@@ -1,0 +1,30 @@
+[0.018s] Invoking command in '/home/jun/ros2_jazzy/src/build/robin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jun/ros2_jazzy/src/build/robin_description -- -j12 -l12
+[0.259s] Invoked command in '/home/jun/ros2_jazzy/src/build/robin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jun/ros2_jazzy/src/build/robin_description -- -j12 -l12
+[0.272s] Invoking command in '/home/jun/ros2_jazzy/src/build/robin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jun/ros2_jazzy/src/build/robin_description
+[0.283s] -- Install configuration: ""
+[0.283s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//urdf
+[0.283s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//urdf/common_properties.xacro
+[0.284s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//urdf/mobile_base_gazebo.xacro
+[0.284s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//urdf/mobile_base.xacro
+[0.284s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//urdf/my_robot.urdf.xacro
+[0.288s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//launch
+[0.288s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//launch/display.launch.py
+[0.288s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//launch/display.launch.xml
+[0.289s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//rviz
+[0.289s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description//rviz/urdf_config.rviz
+[0.289s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/ament_index/resource_index/package_run_dependencies/robin_description
+[0.289s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/ament_index/resource_index/parent_prefix_path/robin_description
+[0.289s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/environment/ament_prefix_path.sh
+[0.290s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/environment/ament_prefix_path.dsv
+[0.290s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/environment/path.sh
+[0.290s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/environment/path.dsv
+[0.290s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/local_setup.bash
+[0.290s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/local_setup.sh
+[0.291s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/local_setup.zsh
+[0.291s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/local_setup.dsv
+[0.291s] -- Installing: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.dsv
+[0.291s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/ament_index/resource_index/packages/robin_description
+[0.291s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/cmake/robin_descriptionConfig.cmake
+[0.292s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/cmake/robin_descriptionConfig-version.cmake
+[0.292s] -- Up-to-date: /home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.xml
+[0.295s] Invoked command in '/home/jun/ros2_jazzy/src/build/robin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jun/ros2_jazzy/src/build/robin_description

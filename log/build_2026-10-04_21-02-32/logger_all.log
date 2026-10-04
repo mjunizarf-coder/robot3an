@@ -1,0 +1,238 @@
+[0.126s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.126s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7644e0e85370>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7644e0e850a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7644e0e850a0>>, mixin_verb=('build',))
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.170s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jun/ros2_jazzy/src'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(robin_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(robin_bringup) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(robin_bringup) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(robin_bringup) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robin_bringup) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robin_bringup) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robin_bringup) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robin_bringup) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robin_bringup) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'robin_bringup' with type 'ros.ament_cmake' and name 'robin_bringup'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(robin_description) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(robin_description) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(robin_description) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(robin_description) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(robin_description) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(robin_description) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(robin_description) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(robin_description) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(robin_description) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'robin_description' with type 'ros.ament_cmake' and name 'robin_description'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(simple_mover) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(simple_mover) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(simple_mover) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(simple_mover) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(simple_mover) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(simple_mover) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(simple_mover) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(simple_mover) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(simple_mover) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'simple_mover' with type 'ros.ament_python' and name 'simple_mover'
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.227s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/jun/ros2_jazzy/install
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 310 installed packages in /opt/ros/jazzy
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'robin_bringup' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'robin_bringup' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'robin_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'robin_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'robin_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'robin_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'robin_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'robin_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jun/ros2_jazzy/src/build/robin_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jun/ros2_jazzy/src/install/robin_bringup', 'merge_install': False, 'path': '/home/jun/ros2_jazzy/src/robin_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_description' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_description' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'robin_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'robin_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jun/ros2_jazzy/src/build/robin_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jun/ros2_jazzy/src/install/robin_description', 'merge_install': False, 'path': '/home/jun/ros2_jazzy/src/robin_description', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_mover' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_mover' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_mover' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_mover' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_mover' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_mover' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_mover' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_mover' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_mover' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'simple_mover' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jun/ros2_jazzy/src/build/simple_mover', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jun/ros2_jazzy/src/install/simple_mover', 'merge_install': False, 'path': '/home/jun/ros2_jazzy/src/simple_mover', 'symlink_install': False, 'test_result_base': None}
+[0.278s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jun/ros2_jazzy/src/robin_bringup' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jun/ros2_jazzy/src/robin_bringup'
+[0.282s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jun/ros2_jazzy/src/robin_description' with build type 'ament_cmake'
+[0.288s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jun/ros2_jazzy/src/robin_description'
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jun/ros2_jazzy/src/simple_mover' with build type 'ament_python'
+[0.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_mover', 'ament_prefix_path')
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/hook/ament_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/hook/ament_prefix_path.dsv'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/hook/ament_prefix_path.sh'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jun/ros2_jazzy/src/build/robin_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jun/ros2_jazzy/src/build/robin_bringup -- -j12 -l12
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jun/ros2_jazzy/src/build/robin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jun/ros2_jazzy/src/build/robin_description -- -j12 -l12
+[0.551s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jun/ros2_jazzy/src/simple_mover'
+[0.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.551s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jun/ros2_jazzy/src/build/robin_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jun/ros2_jazzy/src/build/robin_bringup -- -j12 -l12
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jun/ros2_jazzy/src/build/robin_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jun/ros2_jazzy/src/build/robin_bringup
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jun/ros2_jazzy/src/build/robin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jun/ros2_jazzy/src/build/robin_description -- -j12 -l12
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jun/ros2_jazzy/src/build/robin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jun/ros2_jazzy/src/build/robin_description
+[0.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robin_bringup)
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup' for CMake module files
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup' for CMake config files
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('robin_bringup', 'cmake_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/hook/cmake_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/hook/cmake_prefix_path.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/hook/cmake_prefix_path.sh'
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jun/ros2_jazzy/src/build/robin_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jun/ros2_jazzy/src/build/robin_bringup
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup/bin'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup/lib/pkgconfig/robin_bringup.pc'
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup/lib/python3.12/site-packages'
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup/bin'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/package.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/package.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/package.sh'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/package.bash'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/package.zsh'
+[0.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jun/ros2_jazzy/src/install/robin_bringup/share/colcon-core/packages/robin_bringup)
+[0.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robin_bringup)
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup' for CMake module files
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup' for CMake config files
+[0.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('robin_bringup', 'cmake_prefix_path')
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/hook/cmake_prefix_path.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/hook/cmake_prefix_path.dsv'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/hook/cmake_prefix_path.sh'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup/bin'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup/lib/pkgconfig/robin_bringup.pc'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup/lib/python3.12/site-packages'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_bringup/bin'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/package.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/package.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/package.sh'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/package.bash'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_bringup/share/robin_bringup/package.zsh'
+[0.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jun/ros2_jazzy/src/install/robin_bringup/share/colcon-core/packages/robin_bringup)
+[0.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robin_description)
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description' for CMake module files
+[0.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jun/ros2_jazzy/src/build/robin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jun/ros2_jazzy/install/simple_mover:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jun/ros2_jazzy/src/build/robin_description
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description' for CMake config files
+[0.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('robin_description', 'cmake_prefix_path')
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/hook/cmake_prefix_path.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/hook/cmake_prefix_path.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/hook/cmake_prefix_path.sh'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description/bin'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description/lib/pkgconfig/robin_description.pc'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description/lib/python3.12/site-packages'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description/bin'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.ps1'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.dsv'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.sh'
+[0.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.bash'
+[0.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.zsh'
+[0.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jun/ros2_jazzy/src/install/robin_description/share/colcon-core/packages/robin_description)
+[0.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robin_description)
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description' for CMake module files
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description' for CMake config files
+[0.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('robin_description', 'cmake_prefix_path')
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/hook/cmake_prefix_path.ps1'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/hook/cmake_prefix_path.dsv'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/hook/cmake_prefix_path.sh'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description/bin'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description/lib/pkgconfig/robin_description.pc'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description/lib/python3.12/site-packages'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/robin_description/bin'
+[0.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.dsv'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.sh'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.bash'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/robin_description/share/robin_description/package.zsh'
+[0.622s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jun/ros2_jazzy/src/install/robin_description/share/colcon-core/packages/robin_description)
+[1.285s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, dist_info, bdist_dumb, build_py, pytest, install_headers, install_lib, setopt, extract_messages, upload_docs, saveopts, build, check, update_catalog, build_ext, register, install_scripts, bdist, compile_catalog, symlink_data, bdist_rpm, easy_install, editable_wheel, sdist, alias, test, bdist_wheel, ptr, develop, bdist_egg, install_data, upload, build_scripts, clean, rotate, init_catalog, build_clib, install_egg_info, install
+[1.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jun/ros2_jazzy/src/simple_mover': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jun/ros2_jazzy/src/build/simple_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simple_mover build --build-base /home/jun/ros2_jazzy/src/build/simple_mover/build install --record /home/jun/ros2_jazzy/src/build/simple_mover/install.log --install-scripts $base/lib/simple_mover --single-version-externally-managed install_data
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/simple_mover' for CMake module files
+[1.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jun/ros2_jazzy/src/simple_mover' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jun/ros2_jazzy/src/build/simple_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simple_mover build --build-base /home/jun/ros2_jazzy/src/build/simple_mover/build install --record /home/jun/ros2_jazzy/src/build/simple_mover/install.log --install-scripts $base/lib/simple_mover --single-version-externally-managed install_data
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/simple_mover' for CMake config files
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/simple_mover/lib'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/simple_mover/bin'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/simple_mover/lib/pkgconfig/simple_mover.pc'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages'
+[1.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_mover', 'pythonpath')
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/hook/pythonpath.ps1'
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/hook/pythonpath.dsv'
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/hook/pythonpath.sh'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/jun/ros2_jazzy/src/install/simple_mover/bin'
+[1.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_mover)
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/package.ps1'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/package.dsv'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/package.sh'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/package.bash'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/jun/ros2_jazzy/src/install/simple_mover/share/simple_mover/package.zsh'
+[1.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jun/ros2_jazzy/src/install/simple_mover/share/colcon-core/packages/simple_mover)
+[1.935s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.935s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.936s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.942s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.942s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.942s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.957s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.957s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jun/ros2_jazzy/src/install/local_setup.ps1'
+[1.958s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jun/ros2_jazzy/src/install/_local_setup_util_ps1.py'
+[1.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jun/ros2_jazzy/src/install/setup.ps1'
+[1.961s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jun/ros2_jazzy/src/install/local_setup.sh'
+[1.961s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jun/ros2_jazzy/src/install/_local_setup_util_sh.py'
+[1.962s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jun/ros2_jazzy/src/install/setup.sh'
+[1.963s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jun/ros2_jazzy/src/install/local_setup.bash'
+[1.964s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jun/ros2_jazzy/src/install/setup.bash'
+[1.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jun/ros2_jazzy/src/install/local_setup.zsh'
+[1.965s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jun/ros2_jazzy/src/install/setup.zsh'

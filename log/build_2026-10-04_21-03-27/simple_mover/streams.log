@@ -1,0 +1,26 @@
+[0.961s] Invoking command in '/home/jun/ros2_jazzy/src/simple_mover': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jun/ros2_jazzy/src/build/simple_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simple_mover build --build-base /home/jun/ros2_jazzy/src/build/simple_mover/build install --record /home/jun/ros2_jazzy/src/build/simple_mover/install.log --install-scripts $base/lib/simple_mover --single-version-externally-managed install_data
+[1.266s] running egg_info
+[1.289s] writing ../build/simple_mover/simple_mover.egg-info/PKG-INFO
+[1.289s] writing dependency_links to ../build/simple_mover/simple_mover.egg-info/dependency_links.txt
+[1.289s] writing entry points to ../build/simple_mover/simple_mover.egg-info/entry_points.txt
+[1.289s] writing requirements to ../build/simple_mover/simple_mover.egg-info/requires.txt
+[1.290s] writing top-level names to ../build/simple_mover/simple_mover.egg-info/top_level.txt
+[1.336s] reading manifest file '../build/simple_mover/simple_mover.egg-info/SOURCES.txt'
+[1.337s] writing manifest file '../build/simple_mover/simple_mover.egg-info/SOURCES.txt'
+[1.337s] running build
+[1.337s] running build_py
+[1.337s] copying simple_mover/mover_node.py -> /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover
+[1.338s] running install
+[1.344s] running install_lib
+[1.368s] copying /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover/mover_node.py -> /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover
+[1.369s] byte-compiling /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover/mover_node.py to mover_node.cpython-312.pyc
+[1.370s] running install_data
+[1.371s] running install_egg_info
+[1.396s] removing '/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover-0.0.0-py3.12.egg-info' (and everything under it)
+[1.396s] Copying ../build/simple_mover/simple_mover.egg-info to /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover-0.0.0-py3.12.egg-info
+[1.398s] running install_scripts
+[1.554s] Installing forward_kinematic_node script to /home/jun/ros2_jazzy/src/install/simple_mover/lib/simple_mover
+[1.554s] Installing inverse_kinematic_node script to /home/jun/ros2_jazzy/src/install/simple_mover/lib/simple_mover
+[1.555s] Installing mover_node script to /home/jun/ros2_jazzy/src/install/simple_mover/lib/simple_mover
+[1.555s] writing list of installed files to '/home/jun/ros2_jazzy/src/build/simple_mover/install.log'
+[1.593s] Invoked command in '/home/jun/ros2_jazzy/src/simple_mover' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jun/ros2_jazzy/src/build/simple_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simple_mover build --build-base /home/jun/ros2_jazzy/src/build/simple_mover/build install --record /home/jun/ros2_jazzy/src/build/simple_mover/install.log --install-scripts $base/lib/simple_mover --single-version-externally-managed install_data

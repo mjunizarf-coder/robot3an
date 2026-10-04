@@ -1,0 +1,28 @@
+running egg_info
+writing ../build/simple_mover/simple_mover.egg-info/PKG-INFO
+writing dependency_links to ../build/simple_mover/simple_mover.egg-info/dependency_links.txt
+writing entry points to ../build/simple_mover/simple_mover.egg-info/entry_points.txt
+writing requirements to ../build/simple_mover/simple_mover.egg-info/requires.txt
+writing top-level names to ../build/simple_mover/simple_mover.egg-info/top_level.txt
+reading manifest file '../build/simple_mover/simple_mover.egg-info/SOURCES.txt'
+writing manifest file '../build/simple_mover/simple_mover.egg-info/SOURCES.txt'
+running build
+running build_py
+copying simple_mover/forward_kinematik_node.py -> /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover
+copying simple_mover/mover_node.py -> /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover
+copying simple_mover/invers_kinematik_node.py -> /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover
+running install
+running install_lib
+copying /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover/forward_kinematik_node.py -> /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover
+copying /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover/mover_node.py -> /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover
+copying /home/jun/ros2_jazzy/src/build/simple_mover/build/lib/simple_mover/invers_kinematik_node.py -> /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover
+byte-compiling /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover/forward_kinematik_node.py to forward_kinematik_node.cpython-312.pyc
+byte-compiling /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover/mover_node.py to mover_node.cpython-312.pyc
+byte-compiling /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover/invers_kinematik_node.py to invers_kinematik_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/simple_mover/simple_mover.egg-info to /home/jun/ros2_jazzy/src/install/simple_mover/lib/python3.12/site-packages/simple_mover-0.0.0-py3.12.egg-info
+running install_scripts
+Installing mover_node script to /home/jun/ros2_jazzy/src/install/simple_mover/lib/simple_mover
+writing list of installed files to '/home/jun/ros2_jazzy/src/build/simple_mover/install.log'
