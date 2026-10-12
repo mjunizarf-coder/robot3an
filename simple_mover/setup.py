@@ -26,7 +26,8 @@ setup(
         'console_scripts': [
             'mover_node = simple_mover.mover_node:main',
             'inverse_kinematic_node = simple_mover.inverse_kinematic_node:main',
-            'forward_kinematic_node = simple_mover.forward_kinematic_node:main'
+            'forward_kinematic_node = simple_mover.forward_kinematic_node:main',
+            'global_coordinate_node = simple_mover.global_coordinate_node:main',
         ],
     },
 )
