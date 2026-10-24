@@ -8,8 +8,8 @@ class InverseKinematicNode(Node):
     def __init__(self):
         super().__init__('inverse_kinematic_node')
 
-        self.declare_parameter('wheel_radius', 0.1)
-        self.declare_parameter('wheel_separation', 0.45)
+        self.declare_parameter('wheel_radius', 0.03)
+        self.declare_parameter('wheel_separation', 0.17)
 
         self.r = self.get_parameter('wheel_radius').value
         self.s = self.get_parameter('wheel_separation').value
